@@ -2,7 +2,7 @@ import React, { useState, useRef, useMemo, useEffect } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls, Stars, Line, Trail } from '@react-three/drei';
 import * as THREE from 'three';
-import './styles.css';
+import './index.css';
 
 // --- EXPANDED PLANET DATA WITH FACTS ---
 const PLANETS = [
